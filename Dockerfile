@@ -1,6 +1,6 @@
 FROM java:8
 
-ADD target/JavaBatch.jar app.jar
+ADD target/javaBatch.jar app.jar
 
 ENTRYPOINT [ "java" , "-jar" , "app.jar" ]
 
